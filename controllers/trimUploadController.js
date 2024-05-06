@@ -28,7 +28,7 @@ trimSheetDetails.addtrimSheet = async (req, res, next) => {
                 No: item.No,
                 code: item.Code,
                 trimDetails: item["TRIM DETAILS"],
-                curType: item.CUR,
+                cur: item.CUR,
                 dutyValue : item.DUTY ?? 0,
                 price: item.PRICE,
                 cons: item.CONSP,

@@ -17,10 +17,10 @@ const sequelize = require("../../config/db.config.js");
             allowNull: true
         },
         duty: {
-            type: Sequelize.DECIMAL(20, 2),
+            type: Sequelize.STRING,
             allowNull: true
         },
-        currency: {
+        cur: {
             type: Sequelize.STRING,
             allowNull: true
         },

@@ -29,7 +29,7 @@ const CostingDetails = sequelize.define("costingDetails", {
         type: Sequelize.DECIMAL(20, 2),
         allowNull: true
     },
-    INR: {
+    Inr: {
         type: Sequelize.DECIMAL(20, 2),
         allowNull: true
     },

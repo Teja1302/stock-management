@@ -8,6 +8,9 @@ const db = require('./config/db.config');
 
 let uploadRoutes = require('./routes/uploadRoutes').router;
 
+
+
+
 db.sync({ force: false })
     .then(e => console.log("Table Created"))
     .catch(e => console.log("error", e));
